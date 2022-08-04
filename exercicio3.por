@@ -7,12 +7,7 @@ programa
 		inteiro num2
 		inteiro num3
 		inteiro num4
-		inteiro result1
-		inteiro result2
-		inteiro result3
-		inteiro result4 
-
-
+		
 	escreva("Digite o primeiro número: ")
 	leia (num1)
 
@@ -25,20 +20,20 @@ programa
 	escreva("\nDigite o quarto número: ")
 	leia (num4)
 
-		result1 = num1*num1
-		result2 = num2*num2
-		result3 = num3*num3
-		result4 = num4*num4
+		num1 = (num1*num1)
+		num2 = (num2*num2)
+		num3 = (num3*num3)
+		num4 = (num4*num4)
 	
 	limpa()
 	
-     se (result3 >= 1000){
-     	escreva("\nQuadrado de 3 é: ", result3)
+     se (num3 >= 1000){
+     	escreva("\nQuadrado de 3 é: ", num3)
      }senao{
-		escreva("Quadrado de 1 é: ", result1)
-		escreva("\nQuadrado de 2 é: ", result2)
-		escreva("\nQuadrado de 3 é: ", result3)
-		escreva("\nQuadrado de 4 é: ", result4)
+		escreva("Quadrado de 1 é: ", num1)
+		escreva("\nQuadrado de 2 é: ", num2)
+		escreva("\nQuadrado de 3 é: ", num3)
+		escreva("\nQuadrado de 4 é: ", num4)
 	}
 }
 
@@ -48,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 165; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
