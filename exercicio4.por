@@ -9,8 +9,6 @@ programa
 		escreva("Digite o número: ")
 		leia(num1)
 
-		
-
 		se (num1%2 == 0){
 			escreva("Numero ", num1, " é par")
 		}senao{
@@ -23,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 217; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

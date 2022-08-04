@@ -5,11 +5,8 @@ programa
 	{
 		real num1
 		
-
 		escreva("Digite o índice de poluição detectado: ")
 		leia(num1)
-
-		
 
 		se (num1 >= 0.05 e num1 <= 0.25 ){
 			escreva("O índice de poluição é aceitável")
@@ -27,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 471; 
+ * @POSICAO-CURSOR = 47; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

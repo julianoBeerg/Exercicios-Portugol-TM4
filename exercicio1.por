@@ -10,7 +10,6 @@ programa
 		escreva("Digita o peso total dos tomates: ")
 		leia (peso)
 
-		
 		se (peso > 50.0){
 			escreva("Você passou do peso estabelecido em: ", peso - limite, " Kg")
 			escreva("\nPague uma multa de R$4,00 por Kg passado")
@@ -25,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 470; 
+ * @POSICAO-CURSOR = 147; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
