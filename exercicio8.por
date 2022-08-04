@@ -3,19 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro base
-		inteiro altura 
+		inteiro num1
 		
-		escreva("Digite largura da base: ")
-		leia(base)
+		escreva("Digite o numero: ")
+		leia(num1)
 
-		escreva("Digite a altura: ")
-		leia(altura)
-	
-		se (base >= 1 e altura >=1){
-			escreva("O cálculo da area do triângulo é: ", base*altura)
+		se (num1 > 100){
+			escreva("O número digitado foi: ", num1)
 		}senao{
-			escreva("Não é possível realizar o cálculo com esses números, tente novamente")
+			escreva("O número digitado é abaixo de 100")
 		}
 	}
 }
@@ -24,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 68; 
+ * @POSICAO-CURSOR = 50; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
