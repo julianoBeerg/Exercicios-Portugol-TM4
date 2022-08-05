@@ -3,12 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-	
+		inteiro soma = 0
 		
 		para (inteiro num = 3; num <=500; num += 3){
-			escreva(num, "\n")
+			soma += num	
 		}
-		
+		escreva (soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 107; 
+ * @POSICAO-CURSOR = 144; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
