@@ -3,19 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[5], maior = 0
+		inteiro num [2][2] = {{4,6},{4,6}}, soma1, soma2
 		
-		para(inteiro cont=0; cont<5; cont++){
-			escreva("\nDigite o ", cont+1, "º número: ")
-			leia (vetor[cont])
-			
-			
-			se(vetor[cont] > maior){
-				maior = vetor[cont]
-			}			
-		}
-		limpa()
-			escreva("O maior número é: ", maior)
+		soma1 = num[0][0] + num[0][0]
+		soma2 = num[1][1] + num[1][1]
+
+		escreva("A soma da matriz C0 mais L0 é: ", soma1)
+		escreva("\nA soma da matriz C1 mais L1 é: ", soma2)
+	
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 222; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
